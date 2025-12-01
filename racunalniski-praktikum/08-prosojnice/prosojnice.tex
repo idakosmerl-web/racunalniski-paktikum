@@ -11,12 +11,26 @@
 \usepackage{amsthm}
 \usepackage{amsmath}
 \usepackage{amsfonts}
+\usepackage{tikz}  
+\usepackage{pgfplots}
+\usepgfplotslibrary{external}
+\usepackage{array}
+
+\usetikzlibrary{math}    
 \theoremstyle{definition}
 \newtheorem{definicija}{Definicija}
-\theoremstyle{plain}
-\newtheorem{izrek}{Izrek}
 
-\begin{document}
+\theoremstyle{plain} 
+\newtheorem{izrek}{Izrek}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\CC}{\mathbb{C}}
+
+%\theoremstyle{definition}
+%\newtheorem{definicija}{Definicija}
+%\theoremstyle{plain}
+%\newtheorem{izrek}{Izrek}
+
 
 % Naloga 1.3.4: pripravite naslovno stran z vsebino:
 % - naslov: Matematični izrazi in uporaba paketa \texttt{beamer}
@@ -32,34 +46,36 @@
 \subtitle{\emph{Matematičnih nalog ni treba reševati!}}
 \institute{Fakulteta za matematiko in fiziko}
 \date{}
-\begin{frame}
+\begin{document}
+
     \titlepage
-\end{frame}
+
 
 % Naloga 1.3.5: pripravite kazalo vsebine.
 % 1. Naslov prosojnice, s kazalom vsebine naj bo "Kratek pregled"
-% 2. S pomožnim parametrom `pausesections' (v oglatih oklepajih) 
+% 2. S pomožnim parametrom `pauseinputs' (v oglatih oklepajih) 
 %    določite, da naj se kazalo vsebine odkriva postopoma.
 %    Poglejte, kako deluje ta ukaz.
 % 3. Ker ni videti preveč lepo, pomožni parameter zakomentirajte.
-\begin{frame}
-    \frametitle{Kratek pregled}
-    \tableofcontents[pausesections]
-\end{frame}
-
+%\begin{frame}
+%    \frametitle{Kratek pregled}
+%    \tableofcontents[pauseinputs]
+%\end{frame}
+%
 \section{Paket \texttt{beamer}}
 \include{prosojnice/1-paket-beamer}
 
 \section{Paketa \texttt{amsmath} in \texttt{amsfonts}}
-\include{prosojnice/2-paketa-amsmath-amsfonts}
+\input{prosojnice/2-paketa-amsmath-amsfonts}
 
 \section[Matematika, 1. del\\\large{Analiza, logika, množice}]{Matematika, 1. del}
-\include{prosojnice/3-analiza-logika-mnozice}
+%\input{prosojnice/3-analiza-logika-mnozice}
 
-\section{Stolpci in slike}
+\input{prosojnice/4-stolpci-slike.tex}
 
 \section{Paket \texttt{beamer} in tabele}
 
 \section[Matematika, 2. del\\\large{Zaporedja, algebra, grupe}]{Matematika, 2. del}
+\input{6-zaporedja-algebra-grupe.tex}
 
 \end{document}

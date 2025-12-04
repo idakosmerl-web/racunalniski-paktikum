@@ -29,20 +29,30 @@
 \headcommand {\sectionentry {3}{Matematika, 1. del\\\large {Analiza, logika, množice}}{21}{Matematika, 1. del}{0}}
 \headcommand {\slideentry {3}{0}{1}{21/21}{}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {3}{0}{2}{22/28}{}{0}}
-\headcommand {\beamer@framepages {22}{28}}
-\headcommand {\beamer@sectionpages {21}{28}}
-\headcommand {\beamer@subsectionpages {21}{28}}
-\headcommand {\sectionentry {4}{Paket \texttt {beamer} in tabele}{29}{Paket \texttt {beamer} in tabele}{0}}
-\headcommand {\slideentry {4}{0}{1}{29/29}{}{0}}
-\headcommand {\beamer@framepages {29}{29}}
-\headcommand {\beamer@sectionpages {29}{29}}
-\headcommand {\beamer@subsectionpages {29}{29}}
-\headcommand {\sectionentry {5}{Matematika, 2. del\\\large {Zaporedja, algebra, grupe}}{30}{Matematika, 2. del}{0}}
-\headcommand {\slideentry {5}{0}{1}{30/30}{}{0}}
+\headcommand {\slideentry {3}{0}{2}{22/29}{}{0}}
+\headcommand {\beamer@framepages {22}{29}}
+\headcommand {\slideentry {3}{0}{3}{30/30}{}{0}}
 \headcommand {\beamer@framepages {30}{30}}
-\headcommand {\beamer@partpages {1}{30}}
-\headcommand {\beamer@subsectionpages {30}{30}}
-\headcommand {\beamer@sectionpages {30}{30}}
-\headcommand {\beamer@documentpages {30}}
-\headcommand {\gdef \inserttotalframenumber {10}}
+\headcommand {\beamer@sectionpages {21}{30}}
+\headcommand {\beamer@subsectionpages {21}{30}}
+\headcommand {\sectionentry {4}{Paket \texttt {beamer} in tabele}{31}{Paket \texttt {beamer} in tabele}{0}}
+\headcommand {\slideentry {4}{0}{1}{31/31}{}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\beamer@sectionpages {31}{31}}
+\headcommand {\beamer@subsectionpages {31}{31}}
+\headcommand {\sectionentry {5}{Matematika, 2. del\\\large {Zaporedja, algebra, grupe}}{32}{Matematika, 2. del}{0}}
+\headcommand {\slideentry {5}{0}{1}{32/32}{}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\slideentry {5}{0}{2}{33/33}{}{0}}
+\headcommand {\beamer@framepages {33}{33}}
+\headcommand {\slideentry {5}{0}{3}{34/34}{}{0}}
+\headcommand {\beamer@framepages {34}{34}}
+\headcommand {\slideentry {5}{0}{4}{35/35}{}{0}}
+\headcommand {\beamer@framepages {35}{35}}
+\headcommand {\slideentry {5}{0}{5}{36/36}{}{0}}
+\headcommand {\beamer@framepages {36}{36}}
+\headcommand {\beamer@partpages {1}{36}}
+\headcommand {\beamer@subsectionpages {32}{36}}
+\headcommand {\beamer@sectionpages {32}{36}}
+\headcommand {\beamer@documentpages {36}}
+\headcommand {\gdef \inserttotalframenumber {14}}
